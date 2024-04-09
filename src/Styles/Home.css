@@ -1,0 +1,42 @@
+.cont{
+    height: 80vh;
+    width: 90vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+
+.content{
+    height: 40vh;
+    width: 20vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: space-evenly;
+    border-radius: 1vh;
+
+}
+.content button{
+    height: 5vh;
+    width: 10vw;
+    
+    border-radius: 1vh;
+    border: none;
+}
+.content button:hover{
+    background-color: aqua;
+}
+.contimg{
+    height: 50vh;
+    
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+    background-image: url("../../Personal-Loan-Approval-Fectors.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 1vh;
+}

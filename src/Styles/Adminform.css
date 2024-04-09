@@ -1,0 +1,41 @@
+.formcont{
+    
+    height: 90vh;
+     width: 85vw;
+ margin: 2vh;
+ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) ;
+ border-radius: 0.5vh;
+ padding: 1vh;
+ margin: auto;
+
+}
+.adminform{
+    height: 70vh;
+    width: 80vw;
+    border-radius: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.feild{
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.adminform input{
+    height: 5vh;
+    width: 15vw;
+}
+.feild label{
+    font-size: 1.4em;
+}
+.feild select{
+    height: 5vh;
+    width: 10vw;
+}
+.feild button{
+    width: 10vw;
+}
